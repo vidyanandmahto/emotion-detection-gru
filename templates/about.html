@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About · EmotionLens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="bg-orbs">
+  <span class="orb orb-1"></span>
+  <span class="orb orb-2"></span>
+  <span class="orb orb-3"></span>
+</div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="{{ url_for('index') }}" class="brand">
+      <span class="brand-mark">◈</span> EmotionLens
+    </a>
+    <div class="nav-links">
+      <a href="{{ url_for('index') }}">Detect</a>
+      <a href="{{ url_for('about') }}" class="active">About</a>
+      <a href="https://github.com/vidyanandmahto/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+  <header class="hero">
+    <p class="eyebrow">The project, in plain terms</p>
+    <h1>How <span class="grad-text">EmotionLens</span> reads a sentence</h1>
+    <p class="subtitle">A recurrent neural network classifies free text into six emotions: joy, sadness, anger, fear, love and surprise.</p>
+  </header>
+
+  <section class="card about-card">
+    <h3>Pipeline</h3>
+    <ol class="pipeline-list">
+      <li><strong>Cleaning</strong> — lowercasing, URL/number/punctuation stripping, stopword removal, lemmatization.</li>
+      <li><strong>Tokenization</strong> — a 12,000-word Keras vocabulary turns text into integer sequences, padded to a fixed length.</li>
+      <li><strong>Modeling</strong> — SimpleRNN, LSTM, and GRU networks were each trained with an embedding layer, dropout regularization, and a softmax output; the best performer on held-out test data was kept.</li>
+      <li><strong>Serving</strong> — the saved Keras model, tokenizer, and label encoder power this Flask app in real time.</li>
+    </ol>
+  </section>
+
+  <section class="card about-card">
+    <h3>Dataset</h3>
+    <p>Trained on the open Emotion dataset — roughly 20,000 short English sentences, each labeled with one of six emotions, split into train, validation, and test sets.</p>
+  </section>
+
+  <section class="card about-card">
+    <h3>Tech Stack</h3>
+    <div class="stack-grid">
+      <span class="stack-pill">Python</span>
+      <span class="stack-pill">TensorFlow / Keras</span>
+      <span class="stack-pill">scikit-learn</span>
+      <span class="stack-pill">NLTK</span>
+      <span class="stack-pill">Flask</span>
+      <span class="stack-pill">HTML / CSS / JS</span>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Built with TensorFlow, Flask &amp; a lot of coffee — © 2026 EmotionLens</p>
+</footer>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

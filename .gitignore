@@ -1,0 +1,46 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Environment / secrets ----------
+.env
+.env.*
+*.pem
+
+# ---------- Logs ----------
+*.log
+pipeline_log.txt
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- NLTK downloaded corpora (re-downloaded on first run) ----------
+nltk_data/
+
+# ---------- Large trained artifacts (optional - uncomment to exclude from git) ----------
+# model/emotion_model.keras
+# model/tokenizer.pkl
+
+# ---------- Notebook generated assets (optional) ----------
+# notebook/assets/

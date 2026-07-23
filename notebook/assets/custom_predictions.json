@@ -1,0 +1,262 @@
+[
+  {
+    "sentence": "I am so happy today, everything is going great!",
+    "predicted_emotion": "joy",
+    "confidence": 0.6937,
+    "probabilities": {
+      "anger": 0.0305,
+      "fear": 0.0242,
+      "joy": 0.6937,
+      "love": 0.1657,
+      "sadness": 0.0779,
+      "surprise": 0.008
+    }
+  },
+  {
+    "sentence": "I feel like crying, nothing is working out for me.",
+    "predicted_emotion": "sadness",
+    "confidence": 0.3629,
+    "probabilities": {
+      "anger": 0.2764,
+      "fear": 0.0675,
+      "joy": 0.1781,
+      "love": 0.0929,
+      "sadness": 0.3629,
+      "surprise": 0.0223
+    }
+  },
+  {
+    "sentence": "This makes me so angry, I cannot believe it.",
+    "predicted_emotion": "anger",
+    "confidence": 0.9487,
+    "probabilities": {
+      "anger": 0.9487,
+      "fear": 0.027,
+      "joy": 0.0021,
+      "love": 0.0021,
+      "sadness": 0.0164,
+      "surprise": 0.0038
+    }
+  },
+  {
+    "sentence": "I am scared of what might happen tomorrow.",
+    "predicted_emotion": "fear",
+    "confidence": 0.662,
+    "probabilities": {
+      "anger": 0.0766,
+      "fear": 0.662,
+      "joy": 0.0012,
+      "love": 0.0209,
+      "sadness": 0.0048,
+      "surprise": 0.2345
+    }
+  },
+  {
+    "sentence": "I love spending time with my family.",
+    "predicted_emotion": "sadness",
+    "confidence": 0.4162,
+    "probabilities": {
+      "anger": 0.2737,
+      "fear": 0.0509,
+      "joy": 0.1786,
+      "love": 0.0668,
+      "sadness": 0.4162,
+      "surprise": 0.0138
+    }
+  },
+  {
+    "sentence": "What a shocking and unexpected surprise!",
+    "predicted_emotion": "joy",
+    "confidence": 0.9754,
+    "probabilities": {
+      "anger": 0.0004,
+      "fear": 0.0005,
+      "joy": 0.9754,
+      "love": 0.0126,
+      "sadness": 0.0109,
+      "surprise": 0.0001
+    }
+  },
+  {
+    "sentence": "I feel completely hopeless about the future.",
+    "predicted_emotion": "sadness",
+    "confidence": 0.9975,
+    "probabilities": {
+      "anger": 0.0,
+      "fear": 0.0,
+      "joy": 0.0025,
+      "love": 0.0,
+      "sadness": 0.9975,
+      "surprise": 0.0
+    }
+  },
+  {
+    "sentence": "You make me feel so special and loved.",
+    "predicted_emotion": "joy",
+    "confidence": 0.9994,
+    "probabilities": {
+      "anger": 0.0,
+      "fear": 0.0,
+      "joy": 0.9994,
+      "love": 0.0005,
+      "sadness": 0.0001,
+      "surprise": 0.0
+    }
+  },
+  {
+    "sentence": "I am furious about how they treated me.",
+    "predicted_emotion": "anger",
+    "confidence": 0.9917,
+    "probabilities": {
+      "anger": 0.9917,
+      "fear": 0.005,
+      "joy": 0.0001,
+      "love": 0.0001,
+      "sadness": 0.0028,
+      "surprise": 0.0003
+    }
+  },
+  {
+    "sentence": "I am terrified of the dark.",
+    "predicted_emotion": "fear",
+    "confidence": 0.8634,
+    "probabilities": {
+      "anger": 0.0093,
+      "fear": 0.8634,
+      "joy": 0.0,
+      "love": 0.0006,
+      "sadness": 0.0,
+      "surprise": 0.1266
+    }
+  },
+  {
+    "sentence": "Life feels wonderful and full of joy right now.",
+    "predicted_emotion": "joy",
+    "confidence": 0.9997,
+    "probabilities": {
+      "anger": 0.0,
+      "fear": 0.0,
+      "joy": 0.9997,
+      "love": 0.0001,
+      "sadness": 0.0002,
+      "surprise": 0.0
+    }
+  },
+  {
+    "sentence": "I can't stop smiling, today was amazing.",
+    "predicted_emotion": "anger",
+    "confidence": 0.3256,
+    "probabilities": {
+      "anger": 0.3256,
+      "fear": 0.1147,
+      "joy": 0.1462,
+      "love": 0.1407,
+      "sadness": 0.219,
+      "surprise": 0.0537
+    }
+  },
+  {
+    "sentence": "I feel so lonely and sad tonight.",
+    "predicted_emotion": "sadness",
+    "confidence": 0.9976,
+    "probabilities": {
+      "anger": 0.0,
+      "fear": 0.0,
+      "joy": 0.0024,
+      "love": 0.0,
+      "sadness": 0.9976,
+      "surprise": 0.0
+    }
+  },
+  {
+    "sentence": "That was an absolutely delightful surprise party.",
+    "predicted_emotion": "joy",
+    "confidence": 0.8589,
+    "probabilities": {
+      "anger": 0.0106,
+      "fear": 0.0084,
+      "joy": 0.8589,
+      "love": 0.0615,
+      "sadness": 0.059,
+      "surprise": 0.0016
+    }
+  },
+  {
+    "sentence": "I am nervous about my exam results.",
+    "predicted_emotion": "fear",
+    "confidence": 0.6278,
+    "probabilities": {
+      "anger": 0.0473,
+      "fear": 0.6278,
+      "joy": 0.0009,
+      "love": 0.0229,
+      "sadness": 0.0029,
+      "surprise": 0.2982
+    }
+  },
+  {
+    "sentence": "I appreciate everything you have done for me.",
+    "predicted_emotion": "joy",
+    "confidence": 0.6918,
+    "probabilities": {
+      "anger": 0.0444,
+      "fear": 0.0245,
+      "joy": 0.6918,
+      "love": 0.1036,
+      "sadness": 0.1304,
+      "surprise": 0.0052
+    }
+  },
+  {
+    "sentence": "This news left me speechless with shock.",
+    "predicted_emotion": "sadness",
+    "confidence": 0.5076,
+    "probabilities": {
+      "anger": 0.2004,
+      "fear": 0.0342,
+      "joy": 0.21,
+      "love": 0.0409,
+      "sadness": 0.5076,
+      "surprise": 0.0068
+    }
+  },
+  {
+    "sentence": "I feel worthless and empty inside.",
+    "predicted_emotion": "sadness",
+    "confidence": 0.9988,
+    "probabilities": {
+      "anger": 0.0,
+      "fear": 0.0,
+      "joy": 0.0012,
+      "love": 0.0,
+      "sadness": 0.9988,
+      "surprise": 0.0
+    }
+  },
+  {
+    "sentence": "I trust you with all my heart.",
+    "predicted_emotion": "sadness",
+    "confidence": 0.41,
+    "probabilities": {
+      "anger": 0.2855,
+      "fear": 0.0495,
+      "joy": 0.1796,
+      "love": 0.0625,
+      "sadness": 0.41,
+      "surprise": 0.0129
+    }
+  },
+  {
+    "sentence": "I am proud and excited about this achievement.",
+    "predicted_emotion": "joy",
+    "confidence": 0.9565,
+    "probabilities": {
+      "anger": 0.0005,
+      "fear": 0.0005,
+      "joy": 0.9565,
+      "love": 0.0382,
+      "sadness": 0.0041,
+      "surprise": 0.0002
+    }
+  }
+]

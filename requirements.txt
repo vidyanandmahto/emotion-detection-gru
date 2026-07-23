@@ -1,0 +1,16 @@
+# --- Core web framework ---
+Flask==3.1.3
+gunicorn==23.0.0
+
+# --- Deep learning / model serving ---
+tensorflow-cpu==2.21.0
+numpy==2.4.4
+
+# --- Data & preprocessing ---
+pandas==3.0.2
+scikit-learn==1.8.0
+nltk==3.10.0
+
+# --- Visualization (used in training / notebook, optional in production) ---
+matplotlib==3.10.8
+seaborn==0.13.2
